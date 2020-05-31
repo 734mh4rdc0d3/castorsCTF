@@ -1,0 +1,11 @@
+
+void start(void)
+
+{
+  char local_4c [68];
+  
+  __x86.get_pc_thunk.ax();
+  gets(local_4c);
+  return;
+}
+

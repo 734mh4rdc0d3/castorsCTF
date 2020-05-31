@@ -1,0 +1,29 @@
+
+undefined8 main(void)
+
+{
+  FILE *__stream;
+  long in_FS_OFFSET;
+  undefined local_218 [256];
+  char local_118 [264];
+  long local_10;
+  
+  local_10 = *(long *)(in_FS_OFFSET + 0x28);
+  __stream = fopen("flag.txt","r");
+  if (__stream == (FILE *)0x0) {
+                    /* WARNING: Subroutine does not return */
+    exit(1);
+  }
+  __isoc99_fscanf(__stream,&DAT_001009e3,local_218);
+  fclose(__stream);
+  printf("Hello everyone, this is babyfmt! say something: ");
+  fgets(local_118,0xff,stdin);
+  printf(local_118);
+  if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return 0;
+}
+
+

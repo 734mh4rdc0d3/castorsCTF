@@ -1,0 +1,21 @@
+
+/* WARNING: Function: __x86.get_pc_thunk.bx replaced with injection: get_pc_thunk_bx */
+
+undefined4 winnersLevel(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  if ((param_1 == 0x182) || (param_1 == 0x102)) {
+    puts("Wow! Please excuse me sir I had no idea...here are your chips");
+    system("cat ./flag.txt");
+    uVar1 = 1;
+  }
+  else {
+    puts("You guessed right but it seems your badge number isn\'t on our list.");
+    uVar1 = 0;
+  }
+  return uVar1;
+}
+
+

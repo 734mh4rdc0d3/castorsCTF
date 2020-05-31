@@ -1,0 +1,14 @@
+
+/* WARNING: Function: __x86.get_pc_thunk.bx replaced with injection: get_pc_thunk_bx */
+
+undefined4 main(void)
+
+{
+  puts("Do you really think you can get to the winners table?");
+  puts("I\'ll give you one shot at it, what floor is the table at: ");
+  start();
+  puts("Yeah that\'s what I thougt, LOL.\n");
+  return 0;
+}
+
+
