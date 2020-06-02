@@ -1,0 +1,4 @@
+in the barter system, you can buy VPN once and sell it multiple time.
+just repeating the selling till the money in hand become 6000+, then buy the flag.
+
+castorsCTF{$imPl3_sTUph_3h?}
